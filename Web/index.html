@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gemini Live — Voice Chat</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="container">
+      <h1>Gemini Live — Voice Chat</h1>
+      <div class="controls">
+        <button id="startBtn">Start</button>
+        <button id="stopBtn" disabled>Stop</button>
+        <span id="status">idle</span>
+      </div>
+
+      <section class="log" id="log"></section>
+
+      <footer>Model: <code>gemini-2.5-flash-preview-native-audio-dialog</code></footer>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
